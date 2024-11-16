@@ -34,8 +34,7 @@ function togglemute() {
 }
 
 function toggleSound(img) {
-  img.src =
-    img.src.includes ("sound_off.png")
-      ? "../Images/Icons/sound_on.png"
-      : "../Images/Icons/sound_off.png";
+  img.src = img.src.includes("sound_off.png")
+    ? "Images/Icons/sound_on.png"
+    : "Images/Icons/sound_off.png";
 }
